@@ -1,9 +1,9 @@
 name: My junit test
 on:
 push:
-    branches: [ "master" ]
+    branches: [ "syv" ]
 pull_request:
-    branches: [ "master" ]
+    branches: [ "syv" ]
 
 permissions:
   contents: read
