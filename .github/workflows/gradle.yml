@@ -1,5 +1,4 @@
 name: My junit test
-on:
 push:
     branches: [ "syv" ]
 pull_request:
