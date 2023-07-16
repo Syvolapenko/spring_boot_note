@@ -23,8 +23,6 @@ class NoteServiceTest {
         Mockito.when(noteRepository.findAll()).thenReturn(noteList);
         Assertions.assertEquals(noteList,noteRepository.findAll());
     }
-//    List notes
-//    success copy
 
     private List<Note> createTestList() {
         Note note1 = new Note();
