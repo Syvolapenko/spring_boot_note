@@ -1,8 +1,12 @@
 name: My junit test
-push:
-  branches: [ "syv" ]
-pull_request:
-  branches: [ "syv" ]
+on:
+  pull_request:
+    # Sequence of patterns matched against refs/heads
+    branches:
+      - syv
+#  branches: [ "syv" ]
+#pull_request:
+#  branches: [ "syv" ]
 
 permissions:
   contents: read
