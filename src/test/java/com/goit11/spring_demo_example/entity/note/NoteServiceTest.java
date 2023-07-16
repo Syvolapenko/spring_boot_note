@@ -24,8 +24,7 @@ class NoteServiceTest {
         Assertions.assertEquals(noteList,noteRepository.findAll());
     }
 //    List notes
-//    change branch in action
-//    run workflow
+//    success copy
     private List<Note> createTestList() {
         Note note1 = new Note();
         note1.setId(5L);
