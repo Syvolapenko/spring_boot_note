@@ -23,7 +23,8 @@ class NoteServiceTest {
         Mockito.when(noteRepository.findAll()).thenReturn(noteList);
         Assertions.assertEquals(noteList,noteRepository.findAll());
     }
-//    List notes f
+//    List notes
+//    change branch in action
     private List<Note> createTestList() {
         Note note1 = new Note();
         note1.setId(5L);
