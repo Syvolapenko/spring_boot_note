@@ -24,6 +24,7 @@ class NoteServiceTest {
         Assertions.assertEquals(noteList,noteRepository.findAll());
     }
 //    List notes
+//    example
     private List<Note> createTestList() {
         Note note1 = new Note();
         note1.setId(5L);
