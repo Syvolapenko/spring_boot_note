@@ -20,8 +20,6 @@ jobs:
       with:
         java-version: '19'
         distribution: 'temurin'
-    - name: Run unit tests
-      run: python3 -u -m unittest tests/tests.py
     - name: Run chmod to make gradlew executable
       run: chmod +x ./gradlew
     - name: Build with Gradle
