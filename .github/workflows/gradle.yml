@@ -1,9 +1,5 @@
 name: My junit test
-on:
-push:
-    branches: [ "master" ]
-#pull_request:
-#    branches: [ "master" ]
+on: [push]
 
 permissions:
   contents: read
