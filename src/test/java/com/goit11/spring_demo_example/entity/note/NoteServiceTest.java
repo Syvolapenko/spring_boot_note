@@ -25,8 +25,7 @@ class NoteServiceTest {
     }
 //    List notes
 //    success copy
-//    try again
-//    edit
+
     private List<Note> createTestList() {
         Note note1 = new Note();
         note1.setId(5L);
