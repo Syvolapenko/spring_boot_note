@@ -2,7 +2,7 @@ name: My junit test
 on:
   pull_request:
     branches:
-    -master
+     -master
 
 permissions:
   contents: read
